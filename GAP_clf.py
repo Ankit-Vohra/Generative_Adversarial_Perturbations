@@ -21,8 +21,8 @@ torch.autograd.set_detect_anomaly(True)
 
 # Training settings
 parser = argparse.ArgumentParser(description='generative adversarial perturbations')
-parser.add_argument('--imagenetTrain', type=str, default='/content/drive/MyDrive/FYP/TrainingSet_Split/train', help='ImageNet train root')
-parser.add_argument('--imagenetVal', type=str, default='/content/drive/MyDrive/FYP/TrainingSet_Split/val', help='ImageNet val root')
+parser.add_argument('--imagenetTrain', type=str, default='/content/drive/MyDrive/FYP/trainingSet_Split/trainingSet_Split2/train', help='ImageNet train root')
+parser.add_argument('--imagenetVal', type=str, default='/content/drive/MyDrive/FYP/trainingSet_Split/trainingSet_Split2/val', help='ImageNet val root')
 parser.add_argument('--batchSize', type=int, default=30, help='training batch size')
 parser.add_argument('--testBatchSize', type=int, default=16, help='testing batch size')
 parser.add_argument('--nEpochs', type=int, default=10, help='number of epochs to train for')
